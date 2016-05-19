@@ -2,13 +2,14 @@
 HTML, lib and behavior.xar files for tablet view and sensor simulators.
 
 ## Installation
-- Create a new Choreographe project
-- Download the repo
-  - Download the zip, or
-  - ```git clone https://github.com/AlfonzM/choreographe-base.git```
-- Open choreographe-base folder
-- Copy the 3 folders behavior_1, html and lib to your new Choreographe project, overriding behavior.xar inside behavior_1
+1. Create a new Choreographe project
+1. Download the repository
+
     ```
-    cd choreographe-base
-    cp -r ./* path/to/project
+    $ git clone https://github.com/AlfonzM/choreographe-base.git
+    ```
+
+1. Copy the 3 folders inside `choreographe-base/files` (behavior_1, html and lib) to your new Choreographe project, overriding `behavior.xar` inside the `behavior_1` folder
+    ```
+    $ cp -r choreographe-base/files/* NewTest/
     ```
