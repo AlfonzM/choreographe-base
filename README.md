@@ -13,3 +13,5 @@ HTML, lib and behavior.xar files for tablet view and sensor simulators.
     ```
     $ cp -r choreographe-base/files/* NewTest/
     ```
+
+1. Choreographe will prompt to reload the project after the new files are copied. Select 'Yes.'
